@@ -3,8 +3,8 @@ import Subtitle from '@/components/ui/Subtitle'
 export default function HeroContent() {
 
     return (
-        <div className='flex'>
-            <div className='w-1/2'
+        <div className='flex hero-wrapper'>
+            <div className='w-1/2 hero-item-1'
                 style={{ width: '45.3%' }}
             >
                 <Subtitle txt={'FUTURE OF eSPORTS'} />
@@ -17,7 +17,7 @@ export default function HeroContent() {
             <img
                 src={'/img/hero.png'}
                 alt="My Image"
-                className='hero-img'
+                className='hero-img hero-item-2'
             />
         </div>
     )

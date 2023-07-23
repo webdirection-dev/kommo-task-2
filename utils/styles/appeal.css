@@ -3,6 +3,10 @@
     background-color: #2A313C;
 }
 
+.appeal-wrapper {
+    flex-direction: column;
+}
+
 .hero2-img {
     /* width: 596px;
     height: 695px; */
@@ -21,4 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .appeal-wrapper {
+        flex-direction: row;
+    }
 }

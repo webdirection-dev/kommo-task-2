@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <footer className='footer'>
-            <div className='wrapper flex' style={{ paddingTop: '0' }} >
+            <div className='wrapper footer-wrap flex' style={{ paddingTop: '0' }} >
                 <div className='footer-info'>
                     <Logo />
 

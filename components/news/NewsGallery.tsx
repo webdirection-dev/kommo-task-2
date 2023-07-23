@@ -4,12 +4,12 @@ export default function NewsGallery() {
 
     return (
         <div
-            className='flex justify-between items-center'
+            className='flex justify-between items-center news-wrapper'
             style={{ marginTop: '64px' }}
         >
             <NewsItem />
 
-            <div className='grid grid-cols-2 gap-3'>
+            <div className='grid grid-cols-2 gap-3 news-sub-wrapper'>
                 <div className='flex flex-col news-sub-item'>
                     <img
                         src={'/img/news-2.png'}

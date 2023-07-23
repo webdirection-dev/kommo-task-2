@@ -5,6 +5,7 @@
 }
 
 .nav {
+    display: none;
     color: #141820;
     font-size: 16px;
     font-style: normal;
@@ -13,7 +14,7 @@
 }
 
 .nav-li {
-    margin-right: 60px;
+    margin-right: 6px;
 }
 
 
@@ -37,4 +38,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-li {
+        margin-right: 60px;
+    }
 }

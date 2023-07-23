@@ -9,12 +9,10 @@ header {
 
 /* TYPOGRAPHY */
 .title {
-  width: 656px;
+  font-size: 24px;
   color: #FFF;
-  font-size: 72px;
   font-style: normal;
   font-weight: 400;
-  line-height: 86px;
   text-transform: capitalize;
 }
 
@@ -64,22 +62,21 @@ header {
 }
 
 .description {
-  width: 615px;
   color: #999;
-  font-size: 18px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
   margin-top: 45px;
 }
 
 .wrapper {
-  width: 1320px;
+  width: 340px;
   margin: 0 auto;
-  padding-top: 20px;
+  overflow: hidden;
 }
 
 .btn {
+  display: none;
   width: 178px;
   height: 62px;
 }
@@ -93,4 +90,53 @@ header {
   vertical-align: top;
   line-height: 49px;
   border-right: 1px solid black;
+}
+
+@media (min-width: 640px) {
+  .wrapper {
+    width: 640px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 1024px;
+  }
+
+  .title {
+    line-height: 86px;
+    font-size: 72px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .wrapper {
+    width: 1320px;
+  }
+
+  .title {
+    width: 656px;
+  }
+
+  .description {
+    width: 615px;
+  }
 }

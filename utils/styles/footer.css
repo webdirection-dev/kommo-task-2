@@ -4,6 +4,10 @@
     padding: 130px 0 195px;
 }
 
+.footer-wrap {
+    flex-direction: column;
+}
+
 .footer-description {
     width: 289px;
     color: #999;
@@ -15,7 +19,8 @@
 }
 
 .footer-nav {
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
     width: 168px;
 }
 
@@ -36,4 +41,15 @@
     font-weight: 400;
     line-height: 37.5px;
     text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+    .footer-wrap {
+        flex-direction: row;
+    }
+
+    .footer-nav {
+        margin-left: 150px;
+        margin-top: 0;
+    }
 }

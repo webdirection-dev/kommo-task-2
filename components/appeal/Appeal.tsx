@@ -10,7 +10,7 @@ export default function Appeal() {
                 className='wrapper flex items-center h-full'
                 style={{ paddingTop: '0' }}
             >
-                <div className='flex justify-between items-center w-full'>
+                <div className='appeal-wrapper flex justify-between items-center w-full'>
                     <img
                         src={'/img/hero2.png'}
                         alt="My Image"
