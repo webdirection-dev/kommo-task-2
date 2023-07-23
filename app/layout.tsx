@@ -25,17 +25,3 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
     </html>
 )
 export default RootLayout
-
-
-// const RootLayout = ({ children }: { children: React.ReactNode }) => (
-//     <html lang="en" suppressHydrationWarning={true}>
-//         <body className='flex flex-col justify-between' style={{ minHeight: '100vh' }}>
-//             <Providers>
-//                 <General>
-//                     {children}
-//                 </General>
-//             </Providers>
-//         </body>
-//     </html>
-// )
-// export default RootLayout

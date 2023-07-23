@@ -10,11 +10,9 @@ export default function Button({ color = false, border = false, m = false, txt =
 
 
     return (
-        <Link href='/contacts'>
-            <button
-                className='text-white btn'
-                style={{ ...styles }}
-            >{txt}</button>
-        </Link>
+        <button
+            className='text-white btn'
+            style={{ ...styles }}
+        >{txt}</button>
     )
 }
