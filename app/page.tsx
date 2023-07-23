@@ -1,7 +1,17 @@
+import Header from '@/components/layouts/header/Header'
+import Hero from '@/components/hero/Hero'
+import Appeal from '@/components/appeal/Appeal'
+
 const Home = () => {
 
     return (
-        <h1>Test</h1>
+        <>
+            <Header />
+            <main>
+                <Hero />
+                <Appeal />
+            </main>
+        </>
     )
 }
 export default Home
