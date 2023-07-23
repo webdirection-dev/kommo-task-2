@@ -10,7 +10,7 @@ export default function Logo() {
                 <path d="M169.998 26.4893H164.5V31.9871H169.998V26.4893Z" fill="#3BAAFB" />
                 <defs>
                     <linearGradient id="paint0_linear_1_60" x1="16.803" y1="9.70576" x2="49.7901" y2="47.6409" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#57B8FF" />
+                        <stop offset="0" stopColor="#57B8FF" />
                         <stop offset="0.940625" stopColor="#038EF2" />
                         <stop offset="1" stopColor="white" stopOpacity="0" />
                     </linearGradient>

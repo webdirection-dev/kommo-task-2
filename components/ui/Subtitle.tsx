@@ -13,7 +13,7 @@ export default function Subtitle({ txt }: any) {
                 <path d="M25.5 8.5C25.3674 8.5 25.2402 8.44732 25.1464 8.35355C25.0527 8.25979 25 8.13261 25 8V6.5C25 6.36739 25.0527 6.24021 25.1464 6.14645C25.2402 6.05268 25.3674 6 25.5 6C25.6326 6 25.7598 6.05268 25.8536 6.14645C25.9473 6.24021 26 6.36739 26 6.5V8C26 8.13261 25.9473 8.25979 25.8536 8.35355C25.7598 8.44732 25.6326 8.5 25.5 8.5Z" fill="#FFB895" />
                 <defs>
                     <linearGradient id="paint0_linear_1_95" x1="16.1944" y1="1.5" x2="16.1944" y2="30.5" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#FF9159" />
+                        <stop offset="0" stopColor="#FF9159" />
                         <stop offset="0.6875" stopColor="#FF7631" />
                         <stop offset="1" stopColor="#FF6A1F" />
                     </linearGradient>
