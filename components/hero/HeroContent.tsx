@@ -14,11 +14,13 @@ export default function HeroContent() {
                 </p>
             </div>
 
-            <img
-                src={'/img/hero.png'}
-                alt="My Image"
-                className='hero-img'
-            />
+            <div className='img-container'>
+                <img
+                    src={'/img/hero.png'}
+                    alt="My Image"
+                    className='hero-img'
+                />
+            </div>
         </div>
     )
 }
