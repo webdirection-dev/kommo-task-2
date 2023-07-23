@@ -1,5 +1,6 @@
 ## Clone Amazon
 
-- Next app routing
+- Next
+- App routing
 
-[DEMO](https://amazon-next-vi.vercel.app)
+[DEMO](https://kommo-task-2.vercel.app)
