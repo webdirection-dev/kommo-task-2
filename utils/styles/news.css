@@ -1,0 +1,19 @@
+.news {
+    width: 100%;
+    background-color: black;
+    padding: 130px 0;
+}
+
+.news-item {
+    cursor: pointer;
+}
+
+.news-sub-item {
+    width: 312px;
+    cursor: pointer;
+}
+
+.news-1-img {
+    /* width: 648px;
+    height: 510px; */
+}

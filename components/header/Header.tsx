@@ -1,5 +1,5 @@
-import '../../../utils/styles/header.css'
-import Logo from '../../ui/Logo'
+import '../../utils/styles/header.css'
+import Logo from '../ui/Logo'
 import Actions from './Actions'
 import Navigate from './Navigate'
 

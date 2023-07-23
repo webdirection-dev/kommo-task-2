@@ -5,7 +5,7 @@ export default function HeroContent() {
     return (
         <div className='flex'>
             <div className='w-1/2'
-                style={{ width: '45.7%' }}
+                style={{ width: '45.3%' }}
             >
                 <Subtitle txt={'FUTURE OF eSPORTS'} />
                 <h1 className='title'>Unleash the Next Generation of Gaming</h1>

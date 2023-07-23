@@ -8,7 +8,9 @@ export default function NotFound() {
             </div>
             <div className='notfound_desc'>
                 This page could not be found. View
-                <Link href="/"> Home page</Link>
+                <Link href="/"
+                    style={{ color: '#57B8FF' }}
+                > Home page</Link>
 
             </div>
         </div>
